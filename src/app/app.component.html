@@ -1,0 +1,70 @@
+<ion-app>
+  <ion-menu side="start" menuId="first">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>
+          Select UI Screen
+        </ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-menu-toggle>
+        <ion-list>
+          <ion-item>
+              <ion-icon name="arrow-dropright"></ion-icon>
+              <ion-label margin routerLink="/screen1">Screen 1</ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-menu-toggle>
+      <ion-menu-toggle>
+        <ion-list>
+          <ion-item>
+              <ion-icon name="arrow-dropright"></ion-icon>
+              <ion-label margin routerLink="/screen2">Screen 2</ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-menu-toggle>
+      <ion-menu-toggle>
+        <ion-list>
+          <ion-item>
+              <ion-icon name="arrow-dropright"></ion-icon>
+              <ion-label margin routerLink="/screen3">Screen 3</ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-menu-toggle>
+      <ion-menu-toggle>
+          <ion-list>
+            <ion-item>
+                <ion-icon name="arrow-dropright"></ion-icon>
+                <ion-label margin routerLink="/screen4">Screen 4</ion-label>
+            </ion-item>
+          </ion-list>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+            <ion-list>
+              <ion-item>
+                  <ion-icon name="arrow-dropright"></ion-icon>
+                  <ion-label margin routerLink="/screen5">Screen 5</ion-label>
+              </ion-item>
+            </ion-list>
+          </ion-menu-toggle>
+          <ion-menu-toggle>
+            <ion-list>
+              <ion-item>
+                  <ion-icon name="arrow-dropright"></ion-icon>
+                  <ion-label margin routerLink="/screen6">Screen 6</ion-label>
+              </ion-item>
+            </ion-list>
+          </ion-menu-toggle>
+      <ion-menu-toggle>
+          <ion-list>
+            <ion-item>
+               <ion-icon name="exit"></ion-icon>
+               <ion-label margin (click)="login()">Logout</ion-label>
+            </ion-item>
+          </ion-list>
+        </ion-menu-toggle>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet main></ion-router-outlet>
+</ion-app>

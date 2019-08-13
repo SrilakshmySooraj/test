@@ -1,0 +1,7 @@
+{
+  "name": "uiScreen",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

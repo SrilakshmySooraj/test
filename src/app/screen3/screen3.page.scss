@@ -1,0 +1,28 @@
+:root {
+    --ion-color-dark-contrast: #ffffff;
+    --ion-color-dark: #222428;
+    --ion-background-color: #1e2023;
+    
+    }
+    
+      ion-input{
+        --placeholder-color: black;
+        --placeholder-opacity: 1;
+      }
+    
+      $grid-columns:               12 !default;
+
+      $grid-padding-width:         10px !default;
+      
+      $grid-padding-widths: (
+        xs: $grid-padding-width,
+        sm: $grid-padding-width,
+        md: $grid-padding-width,
+        lg: $grid-padding-width,
+        xl: $grid-padding-width
+      ) !default;
+
+
+ion-col{
+  border: 1px solid red;
+}
