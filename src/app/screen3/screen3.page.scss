@@ -22,7 +22,30 @@
         xl: $grid-padding-width
       ) !default;
 
+.text-input{
+  text-transform: lowercase;
+}
 
-ion-col{
-  border: 1px solid red;
+.center{
+  position: fixed;
+  top:30%;
+  left:50;
+  right:40%;
+  align-content: center;
+}
+
+.center1{
+  position: relative;
+  top:20%;
+  margin-left: 40%;
+  left: 10%;
+  margin-right: 45%;
+}
+
+.form{
+ position: fixed;
+ right:25%;
+ left:35%;
+ width: 39%;
+ align-self: center;
 }

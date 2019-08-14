@@ -1,0 +1,30 @@
+ion-card {
+    box-shadow: 0;
+ }
+
+ 
+.bg-class{
+    --background: radial-gradient(rgb(70, 68, 68), black);
+  }
+  
+
+  .lines{
+    border : 1px solid;
+  border-image-source: linear-gradient(to left, rgb(212, 211, 211), black);
+  border-image-slice: 1;
+  }
+
+  ion-row{
+    height: 33.33%;
+  }
+
+  .btn{
+    background-color: #696969 !important;
+    color:white;
+  }
+
+  .line{
+    border : 1px solid;
+  border-image-source: linear-gradient(to right, rgb(212, 211, 211), black);
+  border-image-slice: 1;
+  }
