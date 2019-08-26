@@ -27,25 +27,90 @@
 }
 
 .center{
-  position: fixed;
-  top:30%;
-  left:50;
-  right:40%;
-  align-content: center;
+  position: absolute;
+  left: 45%;
+  width:70%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
+
+.center6{
+  position: fixed;
+  left: 50%;
+  width:70%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 
 .center1{
-  position: relative;
-  top:20%;
-  margin-left: 40%;
-  left: 10%;
-  margin-right: 45%;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  width:70%;
+  border-radius: 10px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
+.center2{
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  width:70%;
+  border-radius: 10px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.center3{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width:70%;
+  border-radius: 10px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.center4{
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  width:70%;
+  border-radius: 10px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.center5{
+  position: fixed;
+  left: 45%;
+  top: 70%;
+  width:70%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.center6{
+  position: fixed;
+  left: 45%;
+  top: 90%;
+  width:70%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 .form{
  position: fixed;
- right:25%;
- left:35%;
- width: 39%;
+ left:5%;
+ width: 100%;
  align-self: center;
+}
+
+
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

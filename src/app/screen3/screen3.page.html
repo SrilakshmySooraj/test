@@ -5,52 +5,87 @@
   <ion-title>Screen 3</ion-title>
 </ion-toolbar>
 <ion-content color="dark" center text-center>
-  <ion-grid>
-    <ion-row no-padding class="ion-text-right">
-      <ion-col size="9">
+  <ion-grid no-padding>
+    <ion-row class="ion-text-right">
+      <ion-col size-xs="9">
 
       </ion-col>
-      <ion-col size="3">
-        <ion-icon name="wifi"></ion-icon>
-        <ion-icon name="cellular"></ion-icon>
-        <ion-icon name="battery-dead"></ion-icon>
-        <ion-col no-padding>{{time | date :'h:mm' }}</ion-col>
+      <ion-col size-xs="3">
+        <ion-icon size="small" name="wifi"></ion-icon>
+        <ion-icon size="small" name="cellular"></ion-icon>
+        <ion-icon size="small" name="battery-dead"></ion-icon>
+        <span style="font-size: block;font-size:18px;color:white">{{time | date :'h:mm' }}</span>
       </ion-col>
     </ion-row>
   </ion-grid>
-  <ion-row >
-      <ion-col>
-    <ion-icon class="icon-class  ion-text-center" style="color:red; position:fixed;top:20%; left:50%;font-size: 30px;" name="radio-button-on"></ion-icon>
-  </ion-col>
-  </ion-row>
-  <ion-grid lines="none">
-      <ion-row color="primary" justify-content-center>
-        <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
-          <div padding >
-            <ion-item style="border-radius: 10px;margin-top:15%;width:50%;margin-left:30%;">
-              <ion-input   name="name" type="text" placeholder="username" ></ion-input>
+  <div class="center">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="12">
+              <ion-icon class="icon-class  ion-text-center" style="color:orangered; position:fixed;top:90%; font-size: 40px;"
+              name="radio-button-on"></ion-icon>
+            </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  <div class="center1">
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-item style="border-radius: 10px;">
+              <ion-input  name="name" type="text" placeholder="username"></ion-input>
             </ion-item>
-            <br/>
-            <ion-item style="border-radius: 10px;margin-top:1%;width:50%;margin-left:30%;">
-              <ion-input name="password" type="password" placeholder="password"  ></ion-input>
-            </ion-item>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+    <div class="center2">
+        <ion-grid>
+          <ion-row>
+            <ion-col size="12">
+              <ion-item style="border-radius: 10px;">
+                <ion-input  name="password" type="password" placeholder="password"></ion-input>
+              </ion-item>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+      <div class="center3">
+          <ion-grid>
+            <ion-row>
+              <ion-col size="12">
+                    <ion-button color="danger" size="medium" type="submit" expand="block">START SHIFT</ion-button>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </div>
+        <div class="center4">
+            <ion-grid>
+              <ion-row>
+                <ion-col size="12">
+                    <ion-button color="dark" size="small" type="submit" expand="block">Forgot Password ?</ion-button>
+                  </ion-col>
+              </ion-row>
+            </ion-grid>
           </div>
-          <div padding style="margin-top:1%;height:5%;width:53%;margin-left:28%;text-align: center">
-            <ion-button  color="danger" size="medium" type="submit" expand="block">START SHIFT</ion-button>
-          </div>
-          <br/>
-          <br/>
-          <div padding style="border-radius: 10px;width:50%;margin-left:30%;text-align: center">
-            <ion-button  color="dark" size="small" type="submit" expand="block">Forgot Password ?</ion-button>
-          </div>
-        </ion-col>
-      </ion-row>
-    </ion-grid>
-  <ion-grid class="center">
-    <ion-row >
-        <ion-col>
-      <ion-icon class="icon-class  ion-text-center" style="color:grey; position:fixed;top:90%; left:50%;font-size: 30px;" name="unlock"></ion-icon>
-    </ion-col>
-    </ion-row>
-  </ion-grid>
+          <div class="center5">
+              <ion-grid>
+                <ion-row>
+                  <ion-col size="12">
+                      <ion-icon class="icon-class  ion-text-center" style="color:grey; position:fixed;top:90%; font-size: 30px;"
+                      name="unlock"></ion-icon>
+                    </ion-col>
+                </ion-row>
+              </ion-grid>
+            </div>
+            <div class="center6">
+                <ion-grid>
+                  <ion-row>
+                    <ion-col size="12">
+                        <ion-icon class="icon-class  ion-text-center" style="color:white; position:fixed;top:90%; font-size: 30px;"
+                        name="mic"></ion-icon>
+                      </ion-col>
+                  </ion-row>
+                </ion-grid>
+              </div>
 </ion-content>
