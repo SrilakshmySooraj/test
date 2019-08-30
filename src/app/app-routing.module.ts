@@ -17,6 +17,7 @@ const routes: Routes = [
   { path: 'screen8', loadChildren: './screen8/screen8.module#Screen8PageModule' },
   { path: 'screen9', loadChildren: './screen9/screen9.module#Screen9PageModule' },
   { path: 'screen10', loadChildren: './screen10/screen10.module#Screen10PageModule' },
+  { path: 'screen11', loadChildren: './screen11/screen11.module#Screen11PageModule' },
 ];
 
 @NgModule({
