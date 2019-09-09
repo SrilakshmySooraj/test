@@ -18,6 +18,12 @@ const routes: Routes = [
   { path: 'screen9', loadChildren: './screen9/screen9.module#Screen9PageModule' },
   { path: 'screen10', loadChildren: './screen10/screen10.module#Screen10PageModule' },
   { path: 'screen11', loadChildren: './screen11/screen11.module#Screen11PageModule' },
+  { path: 'screen12', loadChildren: './screen12/screen12.module#Screen12PageModule' },
+  { path: 'screen13', loadChildren: './screen13/screen13.module#Screen13PageModule' },
+  { path: 'screen14', loadChildren: './screen14/screen14.module#Screen14PageModule' },
+  { path: 'screen15', loadChildren: './screen15/screen15.module#Screen15PageModule' },
+  { path: 'screen16', loadChildren: './screen16/screen16.module#Screen16PageModule' },
+  { path: 'screen17', loadChildren: './screen17/screen17.module#Screen17PageModule' }
 ];
 
 @NgModule({

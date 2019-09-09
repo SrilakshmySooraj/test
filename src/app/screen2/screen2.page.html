@@ -4,51 +4,96 @@
   </ion-buttons>
   <ion-title>Screen 2</ion-title>
 </ion-toolbar>
-<ion-content padding color="dark">
-  <ion-grid>
-    <ion-row>
-      <ion-col size="12" size-sm="8" offset-sm="2" margin-top>
-        <ion-icon class="icon-class  ion-text-center" style="color:grey;margin-left:40%;font-size: 60px;" name="unlock">
-        </ion-icon>
-      </ion-col>
-    </ion-row>
-    <ion-row padding>
-      <ion-col style="margin-left:0; margin-top:-10%;font-size: -5px;width:0%;height:5%;">
-        <ion-img style="size:1%;width:-10px;height:5%;" src="../../assets/download.png"></ion-img>
-      </ion-col>
-    </ion-row>
+<ion-content class="bg-class" >
+    <ion-grid no-padding>
+        <ion-row>
+          <ion-col size-xs="1">
+            <ion-icon size="large" style="color:red;" name="radio-button-on"></ion-icon>
+          </ion-col>
+          <ion-col size-xs="1">
+            <ion-icon size="large" style="color:grey;" name="radio-button-on"></ion-icon>
+          </ion-col >
+          <ion-col size-xs="2.3">
+            <span style="font-size: block;font-size:25px;font-weight: bold;color:white ">00.03</span>
+          </ion-col>
+          <ion-col size-xs="0.5">
+            <span style="font-size:25px;color:grey;">|</span>
+          </ion-col>
+          <ion-col size-xs="0.9">
+              <ion-icon size="large" style="color:grey;" name="radio-button-on"></ion-icon>
+          </ion-col>
+          <ion-col size-xs="1.3">
+            <span style="font-size: block;font-size:25px;font-weight: bold;color:white">00</span>
+          </ion-col>
+          <ion-col  size-xs="1.4" >
+            <span style="font-size:18px;font-weight: bold;color:white">. . .</span>
+          </ion-col>
+          <ion-col  size-xs="3.1">
+            <span style="color:white;font-weight: bold;font-size:17px;">David&nbsp;Smith</span>
+          </ion-col>
+          <ion-col  size-xs="0.5">
+            <ion-icon size="medium" style="color:grey;" name="person"></ion-icon>
+          </ion-col>
+        </ion-row>
+    <br/>
+    <br/>
+    <ion-row no-padding justify-content-center style="margin-top:5%;">
+        <ion-col  class="lines" size="3" style="border-top: 4px solid rgb(24, 22, 22);border-bottom: 6px solid grey;">
+            <p style="text-align: center;font-size: 40px;font-weight: bold;color:rgb(66, 65, 65);">QU</p>
+          <p style="text-align: center;font-size: 40px;font-weight: bold;color:rgb(85, 83, 83);"> <span><ion-icon size="small" style="color:rgb(85, 83, 83);" name="brush"></ion-icon></span> 13 </p>
+        </ion-col>
+        <ion-col  class="icon-class  ion-text-center" size-xs="6" style="background-color: #363650">  
+            <br/>
+            <span style="text-align: center;font-size: 30px;font-weight: bold;color:rgb(75, 72, 72);">CSQU305483</span>
+            <br/>
+            <br/>
+            <ion-buttons  class="icon-class  ion-text-center" style="margin-left: auto;
+            margin-right: auto;
+            display: block !important;text-align: center;border-radius: 5px;color:rgb(75, 72, 72);">
+                <ion-button  class="btn" style="border-radius: 5px;" >
+                  <ion-icon style="color:rgb(75, 72, 72)" name="logo-youtube"></ion-icon>&nbsp;<span style="color:rgb(75, 72, 72);">COMPLETE MOVE</span>
+                </ion-button>
+              </ion-buttons>
+            
+            <br/>
+            <span style="margin-left: auto;
+            margin-right: auto;
+            display: block !important;text-align: center;font-size: 30px;font-weight: bold;color:rgb(75, 72, 72);">22G1   <ion-icon size="medium" name ="list-box"></ion-icon></span>
+        </ion-col>
+        <ion-col size="3" class="line" style=" border-top: 5px solid grey;border-bottom: 5px solid grey;">
+            <p style="text-align: center;font-size: 40px;font-weight: bold;color:white">YA</p>
+            <p style="text-align: center;font-size: 40px;font-weight: bold;color:white">02 <span><ion-icon size="small" style="color:honeydew" name="brush"></ion-icon></span></p>
+          </ion-col>
+      </ion-row>
+      <br/>
+      <ion-row>
+        <ion-col>
+          <ion-icon size="medium" style="color:white;position: absolute;
+        margin: auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;font-size: 25px;" name="unlock" padding></ion-icon>
+        </ion-col>
+      </ion-row>
+      <br/>
+      <ion-row>
+          <ion-col>
+            <ion-icon size="medium" style="color:white;position: absolute;
+          margin: auto;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;font-size: 25px;" name="cart" padding></ion-icon>
+          </ion-col>
+        </ion-row>
+      <br/>
   </ion-grid>
-  <ion-col>
-    <div class="ion-text-center labels">
-      Use one of the following to authentication
-    </div>
-  </ion-col>
-  <ion-grid>
-    <ion-row class="ion-text-center">
-      <ion-col col-2>
-        <h5 class="labels">FINGERPRINT</h5>
-        <span class="ion-text-center">
-          <ion-icon class="icon-class" name="finger-print"></ion-icon>
-        </span>
+  <ion-grid class="center">
+      <ion-row >
+          <ion-col>
+        <ion-icon class="icon-class  ion-text-center" style="color:white; position:fixed;top:90%; left:45%;font-size: 30px;" name="mic"></ion-icon>
       </ion-col>
-      <ion-col col-2>
-        <h5 class="labels">VOICE</h5>
-        <span class="ion-text-center">
-          <ion-icon class="icon-class" name="mic"></ion-icon>
-        </span>
-      </ion-col>
-      <ion-col col-2>
-        <h5 class="labels">PASSWORD</h5>
-        <span class="ion-text-center">
-          <ion-icon class="icon-class" name="unlock"></ion-icon>
-        </span>
-      </ion-col>
-      <ion-col col-2>
-        <h5 class="labels">ID CARD</h5>
-        <span class="ion-text-center">
-          <ion-icon class="icon-class" name="card"></ion-icon>
-        </span>
-      </ion-col>
-    </ion-row>
-  </ion-grid>
+      </ion-row>
+    </ion-grid>
 </ion-content>

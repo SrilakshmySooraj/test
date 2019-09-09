@@ -25,4 +25,9 @@
   .bg-class{
     --background: radial-gradient(rgb(70, 68, 68), black);
 }
-  
+
+.gridA{
+    border-left: 10px solid red;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}

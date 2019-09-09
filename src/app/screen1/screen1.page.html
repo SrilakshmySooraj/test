@@ -5,36 +5,40 @@
     <ion-title>Screen 1</ion-title>
   </ion-toolbar>
   <ion-content class="bg-class" >
-    <ion-grid no-padding>
-      <ion-row>
-        <ion-col size-xs="1">
-          <ion-icon size="large" style="color:red;" name="radio-button-on"></ion-icon>
-        </ion-col>
-        <ion-col size-xs="1">
-          <ion-icon size="large" style="color:grey;" name="radio-button-on"></ion-icon>
-        </ion-col >
-        <ion-col size-xs="2.3">
-          <span style="font-size: block;font-size:25px;font-weight: bold;color:white ">00.03</span>
-        </ion-col>
-        <ion-col size-xs="0.5">
-          <span style="font-size:25px;color:grey;">|</span>
-        </ion-col>
-        <ion-col size-xs="0.9">
-            <ion-icon size="large" style="color:grey;" name="radio-button-on">&nbsp;</ion-icon>
-        </ion-col>
-        <ion-col size-xs="1.3">
-          <span style="font-size: block;font-size:25px;font-weight: bold;color:white">00</span>
-        </ion-col>
-        <ion-col  size-xs="1.4" >
-          <span style="font-size:25px;font-weight: bold;color:white">. . .</span>
-        </ion-col>
-        <ion-col  size-xs="3">
-          <span style="color:white;font-weight: bold;">David&nbsp;Smith</span>
-        </ion-col>
-        <ion-col  size-xs="0.5">
-          <ion-icon size="medium" style="color:grey;" name="person"></ion-icon>
-        </ion-col>
-      </ion-row>
+      <ion-grid no-padding>
+          <ion-row>
+            <ion-col size="0.4">
+              <ion-icon size="large" style="color:red;" name="radio-button-on"></ion-icon>
+            </ion-col>
+            <ion-col size="0.4">
+              <ion-icon size="large" style="color:grey;" name="radio-button-on"></ion-icon>
+            </ion-col >
+            <ion-col size-xs="0.9">
+              <span style="font-size: block;font-size:25px;font-weight: bold;color:white ">00.03</span>
+            </ion-col>
+            <ion-col size-xs="0.3">
+              <span style="font-size:25px;color:grey;">|</span>
+            </ion-col>
+            <ion-col size-xs="0.4">
+                <ion-icon size="large" style="color:grey;" name="radio-button-on">&nbsp;</ion-icon>
+            </ion-col>
+            <ion-col size-xs="0.5">
+              <span style="font-size: block;font-size:25px;font-weight: bold;color:white">00</span>
+            </ion-col>
+            <ion-col  size="4.4" push="3">
+              <span style="font-size:25px;font-weight: bold;color:white">. . .</span>
+            </ion-col>
+            <ion-col  size-xs="3" push="3" justify-content: right>
+              <span style="color:white;font-weight: bold;">David&nbsp;Smith</span>
+            </ion-col>
+            <ion-col  class="ion-text-right"  >
+              <ion-icon size="medium" style="color:grey;" name="person"></ion-icon>
+            </ion-col>
+          </ion-row>
+          <br>
+          <br>
+        </ion-grid>
+    <ion-grid no-padding class="gridA">
       <br>
       <br>
       <ion-row padding>
@@ -76,5 +80,12 @@
           <ion-icon style="color:grey;font-size: 50px" name="person" padding></ion-icon>
         </ion-col>
       </ion-row>
+    </ion-grid>
+    <ion-grid class="gridA">
+        <ion-row>
+            <ion-col style="color:grey">
+                <ion-icon style="size:40px;" name="outlet"></ion-icon>
+            </ion-col>
+          </ion-row>
     </ion-grid>
   </ion-content>
